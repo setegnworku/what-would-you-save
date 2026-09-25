@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What would you save?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="banner">
+    <div class="banner-brands">
+      <span>ILRI</span>
+      <span>CGIAR</span>
+      <span class="banner-org">Centre for Tropical Livestock Genetics and Health</span>
+    </div>
+    <h1>What would you <em>save?</em></h1>
+    <p class="question">If you could save only one genetic resource, what would you save? <strong>Why?</strong></p>
+    <p class="hint"><span class="hint-arrow" aria-hidden="true">&#8635;</span> Then turn the card to read more</p>
+  </header>
+
+  <main>
+    <section id="herd" class="herd" aria-label="Eight cattle breeds">
+      <article id="detail" class="detail" hidden></article>
+    </section>
+
+    <section id="choice" class="choice" hidden aria-live="polite"></section>
+  </main>
+
+  <footer class="plaque">
+    <p>The value of a genetic resource is not determined only by how well it performs today, but also by the traits it carries that may become <strong>essential tomorrow</strong>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
